@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black; 
+}
+caption {
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+.row-1{
+    background-color: green;
+}
+.row-4{
+    background-color: bisque;
+}

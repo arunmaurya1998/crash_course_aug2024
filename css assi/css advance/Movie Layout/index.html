@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .heading{
+            text-align: center;
+            font-size: 30px;
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+        .containar{
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 15px 1%;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        .box{
+            width:32%;
+            height: 650px;
+            border-radius: 10px;
+        }
+        img{
+            width: 100%;
+            height: 500px;
+            object-fit:cover;
+            border-radius: 10px;
+        }
+        button{
+            background-color: aquamarine;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 15px;
+        }
+        .details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        .details h2{
+            margin: 20px;
+        }
+        .full_img{
+            width: 60%;
+            height: 1000px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Book Movies Show</h1>
+    <div class="containar">
+        <div class="box"><img src="./img/doctor strange.jpeg" alt="">
+            <div class="details">
+                <h2><b>Doctor Strange-2</b></h2>
+                <p>Rating:-4.5</p>
+                <button>Book now</button>
+            </div>
+        </div>
+        <div class="box"><img src="./img/Bhool_Bhulaiyaa_2_film.jpg" alt="">
+            <div class="details">
+                <h2><b>Doctor Strange-2</b></h2>
+                <p>Rating:-4.5</p>
+                <button>Book now</button>
+            </div>
+        </div>
+        <div class="box"><img src="./img/jayeshabhai._jordarjpg.jpg" alt="">
+            <div class="details">
+                <h2><b>Doctor Strange-2</b></h2>
+                <p>Rating:-4.5</p>
+                <button>Book now</button>
+            </div>
+        </div>
+        <div class="box"><img src="./img/jurasik_world_.jpg" alt="">
+            <div class="details">
+                <h2><b>Doctor Strange-2</b></h2>
+                <p>Rating:-4.5</p>
+                <button>Book now</button>
+            </div>
+        </div>
+        <div class="box"><img src="./img/kgf_chapter_2_jpg.cms" alt="">
+            <div class="details">
+                <h2><b>Doctor Strange-2</b></h2>
+                <p>Rating:-4.5</p>
+                <button>Book now</button>
+            </div>
+        </div>
+        <div class="box"><img src="./img/RRR_.jpg" alt="">
+            <div class="details">
+                <h2><b>Doctor Strange-2</b></h2>
+                <p>Rating:-4.5</p>
+                <button>Book now</button>
+            </div>
+        </div>
+    </div>
+    <div class="full_img"><img src="./img/Bhool_Bhulaiyaa_2_film.jpg"></div>
+</body>
+</html>
